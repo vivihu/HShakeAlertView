@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.authors = { '胡伟伟' => 'huweiwei1991@gmail.com' }
   s.platform     = :ios, "5.0"
   s.source       = { :git => "https://github.com/vivihu/HShakeAlertView.git", :tag => s.version }
-  s.source_files = 'HAlertController/**/*.{h,m}'
+  s.source_files = 'HShakeAlertView/**/*.{h,m}'
   s.requires_arc = true
 end
 
