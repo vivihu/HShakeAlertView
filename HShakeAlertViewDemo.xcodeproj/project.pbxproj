@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3227ED1E1CA143AC00D5A917 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3227ED1D1CA143AC00D5A917 /* main.m */; };
+		3227ED211CA143AC00D5A917 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3227ED201CA143AC00D5A917 /* AppDelegate.m */; };
+		3227ED241CA143AC00D5A917 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3227ED231CA143AC00D5A917 /* ViewController.m */; };
+		3227ED271CA143AC00D5A917 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3227ED251CA143AC00D5A917 /* Main.storyboard */; };
+		3227ED291CA143AC00D5A917 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3227ED281CA143AC00D5A917 /* Assets.xcassets */; };
+		3227ED2C1CA143AC00D5A917 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3227ED2A1CA143AC00D5A917 /* LaunchScreen.storyboard */; };
+		3227ED371CA143E900D5A917 /* HShakeAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3227ED361CA143E900D5A917 /* HShakeAlertView.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3227ED191CA143AC00D5A917 /* HShakeAlertViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HShakeAlertViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3227ED1D1CA143AC00D5A917 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3227ED1F1CA143AC00D5A917 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3227ED201CA143AC00D5A917 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3227ED221CA143AC00D5A917 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3227ED231CA143AC00D5A917 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3227ED261CA143AC00D5A917 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3227ED281CA143AC00D5A917 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3227ED2B1CA143AC00D5A917 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3227ED2D1CA143AC00D5A917 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3227ED351CA143E900D5A917 /* HShakeAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HShakeAlertView.h; sourceTree = "<group>"; };
+		3227ED361CA143E900D5A917 /* HShakeAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HShakeAlertView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3227ED161CA143AC00D5A917 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3227ED101CA143AC00D5A917 = {
+			isa = PBXGroup;
+			children = (
+				3227ED341CA143E900D5A917 /* HShakeAlertView */,
+				3227ED1B1CA143AC00D5A917 /* HShakeAlertViewDemo */,
+				3227ED1A1CA143AC00D5A917 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3227ED1A1CA143AC00D5A917 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3227ED191CA143AC00D5A917 /* HShakeAlertViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3227ED1B1CA143AC00D5A917 /* HShakeAlertViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3227ED1F1CA143AC00D5A917 /* AppDelegate.h */,
+				3227ED201CA143AC00D5A917 /* AppDelegate.m */,
+				3227ED221CA143AC00D5A917 /* ViewController.h */,
+				3227ED231CA143AC00D5A917 /* ViewController.m */,
+				3227ED251CA143AC00D5A917 /* Main.storyboard */,
+				3227ED281CA143AC00D5A917 /* Assets.xcassets */,
+				3227ED2A1CA143AC00D5A917 /* LaunchScreen.storyboard */,
+				3227ED2D1CA143AC00D5A917 /* Info.plist */,
+				3227ED1C1CA143AC00D5A917 /* Supporting Files */,
+			);
+			path = HShakeAlertViewDemo;
+			sourceTree = "<group>";
+		};
+		3227ED1C1CA143AC00D5A917 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3227ED1D1CA143AC00D5A917 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3227ED341CA143E900D5A917 /* HShakeAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				3227ED351CA143E900D5A917 /* HShakeAlertView.h */,
+				3227ED361CA143E900D5A917 /* HShakeAlertView.m */,
+			);
+			path = HShakeAlertView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3227ED181CA143AC00D5A917 /* HShakeAlertViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3227ED301CA143AC00D5A917 /* Build configuration list for PBXNativeTarget "HShakeAlertViewDemo" */;
+			buildPhases = (
+				3227ED151CA143AC00D5A917 /* Sources */,
+				3227ED161CA143AC00D5A917 /* Frameworks */,
+				3227ED171CA143AC00D5A917 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HShakeAlertViewDemo;
+			productName = HShakeAlertViewDemo;
+			productReference = 3227ED191CA143AC00D5A917 /* HShakeAlertViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3227ED111CA143AC00D5A917 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Dong jing Ltd.";
+				TargetAttributes = {
+					3227ED181CA143AC00D5A917 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 3227ED141CA143AC00D5A917 /* Build configuration list for PBXProject "HShakeAlertViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3227ED101CA143AC00D5A917;
+			productRefGroup = 3227ED1A1CA143AC00D5A917 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3227ED181CA143AC00D5A917 /* HShakeAlertViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3227ED171CA143AC00D5A917 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3227ED2C1CA143AC00D5A917 /* LaunchScreen.storyboard in Resources */,
+				3227ED291CA143AC00D5A917 /* Assets.xcassets in Resources */,
+				3227ED271CA143AC00D5A917 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3227ED151CA143AC00D5A917 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3227ED241CA143AC00D5A917 /* ViewController.m in Sources */,
+				3227ED211CA143AC00D5A917 /* AppDelegate.m in Sources */,
+				3227ED1E1CA143AC00D5A917 /* main.m in Sources */,
+				3227ED371CA143E900D5A917 /* HShakeAlertView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3227ED251CA143AC00D5A917 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3227ED261CA143AC00D5A917 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3227ED2A1CA143AC00D5A917 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3227ED2B1CA143AC00D5A917 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3227ED2E1CA143AC00D5A917 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3227ED2F1CA143AC00D5A917 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3227ED311CA143AC00D5A917 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HShakeAlertViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.olcps.HShakeAlertViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3227ED321CA143AC00D5A917 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HShakeAlertViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.olcps.HShakeAlertViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3227ED141CA143AC00D5A917 /* Build configuration list for PBXProject "HShakeAlertViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3227ED2E1CA143AC00D5A917 /* Debug */,
+				3227ED2F1CA143AC00D5A917 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3227ED301CA143AC00D5A917 /* Build configuration list for PBXNativeTarget "HShakeAlertViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3227ED311CA143AC00D5A917 /* Debug */,
+				3227ED321CA143AC00D5A917 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3227ED111CA143AC00D5A917 /* Project object */;
+}
